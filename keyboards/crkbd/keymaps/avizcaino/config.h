@@ -45,10 +45,10 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_VAL_STEP 17
 #endif
 
-// #define SPLIT_USB_DETECT
+#define SPLIT_USB_DETECT
 
-#define SPLIT_POINTING_ENABLE 
-#define POINTING_DEVICE_RIGHT
+// #define SPLIT_POINTING_ENABLE // This is to enable the pointing device on the slave side of a split keyboard. Unfortunately it will loose the TAB ability
+// #define POINTING_DEVICE_RIGHT // Specifies in which side is the pointing device
 
 //# Size (default is 40)
 #define CIRQUE_PINNACLE_DIAMETER_MM 40
