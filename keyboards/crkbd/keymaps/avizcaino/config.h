@@ -43,3 +43,16 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #endif
 
 #define SPLIT_USB_DETECT
+
+//# Size (default is 40)
+#define CIRQUE_PINNACLE_DIAMETER_MM 40
+
+//# If rotation is needed
+//#define POINTING_DEVICE_ROTATION_90
+//#define POINTING_DEVICE_INVERT_X
+//#define POINTING_DEVICE_INVERT_Y
+
+
+//# Gestures
+#define CIRQUE_PINNACLE_TAP_ENABLE
+#define POINTING_DEVICE_GESTURES_SCROLL_ENABLE
