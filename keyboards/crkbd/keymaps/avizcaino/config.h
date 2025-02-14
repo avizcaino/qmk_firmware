@@ -20,6 +20,9 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
+#undef MASTER_LEFT
+#define MASTER_RIGHT
+
 //#define USE_MATRIX_I2C
 
 //#define QUICK_TAP_TERM 0
@@ -42,10 +45,14 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
     #define RGBLIGHT_VAL_STEP 17
 #endif
 
-#define SPLIT_USB_DETECT
+// #define SPLIT_USB_DETECT
+
+#define SPLIT_POINTING_ENABLE 
+#define POINTING_DEVICE_RIGHT
 
 //# Size (default is 40)
 #define CIRQUE_PINNACLE_DIAMETER_MM 40
+#define CIRQUE_PINNACLE_CURVED_OVERLAY
 
 //# If rotation is needed
 //#define POINTING_DEVICE_ROTATION_90
