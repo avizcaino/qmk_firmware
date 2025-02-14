@@ -20,8 +20,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #pragma once
 
-#undef MASTER_LEFT
-#define MASTER_RIGHT
+// #undef MASTER_LEFT
+// #define MASTER_RIGHT
 
 //#define USE_MATRIX_I2C
 
@@ -47,8 +47,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #define SPLIT_USB_DETECT
 
-// #define SPLIT_POINTING_ENABLE // This is to enable the pointing device on the slave side of a split keyboard. Unfortunately it will loose the TAB ability
-// #define POINTING_DEVICE_RIGHT // Specifies in which side is the pointing device
+#define SPLIT_POINTING_ENABLE // This is to enable the pointing device on the slave side of a split keyboard.
+#define POINTING_DEVICE_RIGHT // Specifies in which side is the pointing device
 
 //# Size (default is 40)
 #define CIRQUE_PINNACLE_DIAMETER_MM 40
