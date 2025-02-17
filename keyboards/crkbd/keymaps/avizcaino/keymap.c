@@ -18,6 +18,8 @@ along with this program.  If not, see <http://www.gnu.org/licenses/>.
 
 #include QMK_KEYBOARD_H
 
+// TODO: redefine keymaps to use more semantic names
+
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
     [0] = LAYOUT_split_3x6_3(
       //,-----------------------------------------------------.                    ,-----------------------------------------------------.
@@ -49,7 +51,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
       //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
           KC_LCTL,   KC_NO, KC_NUBS, LSFT(KC_NUBS), LSFT(KC_EQL), LSFT(KC_MINS),     KC_RBRC, KC_RCBR, RALT(KC_LBRC), RALT(KC_RBRC), KC_AT, KC_EXLM, 
       //|--------+--------+--------+--------+--------+--------|                    |--------+--------+--------+--------+--------+--------|
-          KC_LSFT,    KC_NO, RALT(KC_GRV), KC_AMPR, KC_EQL, KC_EXLM,                 KC_SLSH, RALT(KC_GRV), RALT(KC_QUOT), RALT(KC_NUHS), KC_LCBR, KC_PMNS, 
+          KC_LSFT,   RALT(KC_SCLN), RALT(KC_GRV), KC_AMPR, KC_EQL, KC_EXLM,          KC_SLSH, RALT(KC_GRV), RALT(KC_QUOT), RALT(KC_NUHS), KC_LCBR, KC_PMNS, 
       //|--------+--------+--------+--------+--------+--------+--------|  |--------+--------+--------+--------+--------+--------+--------|
                                               KC_LGUI,   MO(3),  KC_SPC,     KC_ENT, KC_TRNS, KC_RALT
                                           //`--------------------------'  `--------------------------'
